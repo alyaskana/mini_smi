@@ -1,0 +1,52 @@
+:root {
+  --pink: #F374D9;
+}
+
+body * {
+    font-family: 'Montserrat';
+}
+
+.nav-link:hover {
+  color: var(--pink) !important;
+}
+
+.background_gradient {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+}
+
+.head_screen {
+  display: flex;
+  margin: 24px auto 0;
+  padding: 40px 16px 200px;
+  width: 1320px;
+  background: transparent;
+}
+
+.about {
+  width: 600px;
+  margin-right: 220px;
+  border-left: 3px solid var(--pink);
+  padding-left: 16px;
+  height: min-content;
+  margin-top: 70px;
+}
+
+.fresh_news {
+  border: 3px solid var(--pink);
+  padding: 16px;
+  width: 340px;
+}
+
+.fresh_news_title {
+  color: var(--pink);
+  font-weight: bold;
+}
+
+.fresh_news_link {
+  display: block;
+  color: #111;
+  margin-top: 16px;
+}

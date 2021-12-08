@@ -6,6 +6,7 @@
 }
 :root {
   --pink: #F374D9;
+  --lavender: #B5AAC8;
 }
 
 body * {
@@ -95,6 +96,7 @@ body * {
 
 .card_text {
   margin-bottom: 40px;
+  font-weight: 300;
 }
 
 .card_link {
@@ -103,7 +105,7 @@ body * {
 
 footer {
   padding: 40px;
-  background-color: #B5AAC8;
+  background-color: var(--lavender);
   text-align: center;
   font-weight: 300;
 }
@@ -111,4 +113,10 @@ footer {
 .footer_logo img {
   height: 50px;
   margin-bottom: 8px;
+}
+
+/*  СТРАНИЦА С ВИДЕО */
+
+.video_page .head_screen {
+  background-color: var(--lavender) !important;
 }

@@ -91,3 +91,16 @@ body * {
 .card_link {
   margin-top: auto;
 }
+
+footer {
+  padding: 40px;
+  background-color: #B5AAC8;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 400px;
+}
+
+.footer_logo img {
+  height: 50px;
+  margin-bottom: 8px;
+}

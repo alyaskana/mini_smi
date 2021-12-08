@@ -117,6 +117,6 @@ footer {
 
 /*  СТРАНИЦА С ВИДЕО */
 
-.video_page .head_screen {
+.video_screen {
   background-color: var(--lavender) !important;
 }

@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Beatrix Antiqua";
+  src: url("beatrix-antiqua.regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 :root {
   --pink: #F374D9;
 }
@@ -60,6 +66,7 @@ body * {
 }
 
 .card {
+  /* text-align: center; */
   background-color: white;
   border-radius: 10px;
   position: relative;
@@ -80,8 +87,9 @@ body * {
 .card_title {
   margin: 70px 0 16px;
   font-weight: bold;
-  font-size: 22px;
-  text-align: center;
+  font-size: 24px;
+  /* text-align: center; */
+  font-family: "Beatrix Antiqua";
 }
 
 .card_text {

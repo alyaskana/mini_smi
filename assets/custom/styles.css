@@ -5,6 +5,7 @@
   font-weight: normal;
 }
 :root {
+  --pink-dark: #ED2CC5;
   --pink: #F374D9;
   --lavender: #B5AAC8;
 }
@@ -13,7 +14,11 @@ body * {
     font-family: 'Montserrat';
 }
 
-.nav-link:hover {
+#menu-link-1:hover,
+#menu-link-2:hover,
+#menu-link-3:hover,
+#menu-link-4:hover
+ {
   color: var(--pink) !important;
 }
 
@@ -22,6 +27,21 @@ body * {
   top: 200px;
   left: 0;
   width: 100%;
+}
+
+.dropdown_arrow {
+  height: 8px;
+  width: 8px;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  transform: rotate(-45deg);
+  margin-left: 8px;
+  margin-bottom: 3px;
+  transition: all 0.2s;
+}
+
+#menu-link-1:hover .dropdown_arrow {
+  border-color: var(--pink-dark);
 }
 
 .head_screen {
@@ -35,16 +55,23 @@ body * {
 .about {
   width: 600px;
   margin-right: 220px;
-  border-left: 3px solid var(--pink);
+  border-left: 3px solid var(--pink-dark);
   padding-left: 16px;
   height: min-content;
   margin-top: 70px;
 }
 
 .fresh_news {
-  border: 3px solid var(--pink);
+  border: 3px solid var(--pink-dark);
   padding: 16px;
   width: 340px;
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: white;
+  font-family: 'Montserrat';
+  font-size: 20px;
 }
 
 .fresh_news_title {
@@ -56,6 +83,8 @@ body * {
   display: block;
   color: #111;
   margin-top: 16px;
+  font-size: 16px;
+  line-height: 120%;
 }
 
 .cards {
